@@ -1,0 +1,143 @@
+:root { --bg:#f6f7f9; --card:#fff; --bd:#e6e7ea; --txt:#111; }
+
+body{
+ margin:0;
+ font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial;
+ background:var(--bg);
+ color:var(--txt);
+}
+
+header{
+ position:sticky;
+ top:0;
+ background:var(--bg);
+ padding:14px 14px 10px;
+ z-index:2;
+}
+
+h1{
+ margin:0;
+ font-size:18px;
+ text-align:center;
+}
+
+.wrap{
+ padding:10px 14px 24px;
+ max-width:720px;
+ margin:0 auto;
+}
+
+button{
+ border:0;
+ border-radius:12px;
+ padding:12px 14px;
+ font-size:16px;
+}
+
+.btn-add{
+ width:100%;
+ background:#111;
+ color:#fff;
+ margin-top:10px;
+}
+
+.course{
+ background:var(--card);
+ border:1px solid var(--bd);
+ border-radius:14px;
+ padding:14px;
+ margin:12px 0;
+}
+
+.row{
+ display:flex;
+ gap:10px;
+ flex-wrap:wrap;
+ align-items:center;
+}
+
+.row + .row{ margin-top:10px; }
+
+.label{
+ font-size:13px;
+ color:#555;
+}
+
+input[type="text"],
+input[type="number"]{
+ font-size:16px;
+ padding:10px;
+ border:1px solid var(--bd);
+ border-radius:12px;
+ width:100%;
+ box-sizing:border-box;
+ background:#fff;
+}
+
+.col{ flex:1; min-width:130px; }
+
+.col.small{ min-width:110px; flex:0 0 110px; }
+
+.pill{
+ display:inline-block;
+ padding:6px 10px;
+ border-radius:999px;
+ font-size:13px;
+}
+
+.safe{ background:#e9f7ef; color:#16794c; }
+
+.warn{ background:#fff4e5; color:#a15c00; }
+
+.danger{ background:#ffe8e8; color:#b00020; font-weight:600; }
+
+.meta{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ gap:10px;
+ flex-wrap:wrap;
+}
+
+.rate{
+ font-size:20px;
+ font-weight:700;
+}
+
+.sub{
+ font-size:13px;
+ color:#555;
+ margin-top:6px;
+ line-height:1.35;
+}
+
+.actions{
+ display:flex;
+ gap:10px;
+}
+
+.btn-del{
+ background:#f1f2f4;
+ color:#111;
+}
+
+.toast{
+ position:fixed;
+ left:50%;
+ transform:translateX(-50%);
+ bottom:18px;
+ background:#111;
+ color:#fff;
+ padding:10px 14px;
+ border-radius:999px;
+ font-size:14px;
+ opacity:0;
+ pointer-events:none;
+ transition:opacity .2s;
+ max-width:92vw;
+ white-space:nowrap;
+ overflow:hidden;
+ text-overflow:ellipsis;
+}
+
+.toast.show{ opacity:1; }
