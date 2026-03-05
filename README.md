@@ -18,7 +18,8 @@ https://lijueyan.github.io/attendance-app/
 - HTML
 - CSS
 - JavaScript
+- Python
 
 作成者：
 
-LI JUEYAN
+ChatGPT & LI JUEYAN
