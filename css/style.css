@@ -141,3 +141,15 @@ input[type="number"]{
 }
 
 .toast.show{ opacity:1; }
+
+.footer {
+  max-width:720px;
+  margin:40px auto 0;
+  padding:20px 14px;
+  text-align:center;
+  border-top: dotted 1px #333;
+}
+.footer__copyright p {
+  font-size: 1rem;
+  color:#555;
+}

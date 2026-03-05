@@ -250,7 +250,7 @@ class Game:
         # SCENE 2
         elif self.scene == 2:
 
-            pyxel.text(50,50,"ハル出欠トモ",7,font)
+            pyxel.text(37,50,"ハル出欠トモ 前編",7,font)
 
             if (self.timer // 30) % 2 == 0:
                 pyxel.text(58,80,"PRESS START",7)
@@ -365,7 +365,7 @@ class Game:
 
         elif self.scene == 8:
 
-                pyxel.text(33,40,"「ハル出欠トモ」へ",7,font)
+                pyxel.text(25,40,"ハル出欠トモ 後編へ...",7,font)
 
                 pyxel.rect(30,72,100,20,1)
                 pyxel.text(52,76,"アプリを開く",7,font)
