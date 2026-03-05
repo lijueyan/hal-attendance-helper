@@ -217,7 +217,7 @@ class Game:
                     if 30 <= pyxel.mouse_x <= 130 and 70 <= pyxel.mouse_y <= 90:
 
                         import webbrowser
-                        webbrowser.open("https://lijueyan.github.io/attendance-app/")
+                        webbrowser.open("https://lijueyan.github.io/hal-attendance-helper/")
 
     # =========================
     # START入力
