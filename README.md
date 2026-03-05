@@ -11,7 +11,7 @@
 
 オンライン版：
 
-https://lijueyan.github.io/attendance-app/
+https://lijueyan.github.io/hal-attendance-helper/
 
 使用技術：
 
