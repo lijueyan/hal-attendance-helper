@@ -192,6 +192,7 @@ class Game:
         elif self.scene == 5:
 
             if self.check_start_input():
+                pyxel.play(0,3)
                 self.scene = 6
 
         elif self.scene == 6:
@@ -335,14 +336,14 @@ class Game:
                 pyxel.text(110,80,"松本先生",7,font)
                 pyxel.rect(10,92,140,20,1)
                 pyxel.rectb(10,92,140,20,7)
-                pyxel.text(15,96,text,0,font)
+                pyxel.text(15,96,text,7,font)
 
             else:
 
                 pyxel.text(10,80,player_name,7,font)
                 pyxel.rect(10,92,140,20,1)
                 pyxel.rectb(10,92,140,20,7)
-                pyxel.text(15,96,text,0,font)
+                pyxel.text(15,96,text,7,font)
 
             pyxel.text(122,113,"CLICK >",6)
 
@@ -355,7 +356,7 @@ class Game:
             pyxel.text(10,30,"出席率は50％を下回ると",7,font)
             pyxel.text(10,45,"進級できない可能性があります。",7,font)
             pyxel.text(10,65,"自分の出席率を",7,font)
-            pyxel.text(10,80,"日頃から確認しましょう。",7,font)
+            pyxel.text(10,80,"日頃から賢く管理しましょう！",7,font)
 
             pyxel.text(122,113,"CLICK >",6)
 
